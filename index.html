@@ -25,12 +25,19 @@
     background-color: whitesmoke;
   }
   .bg{
-    background-color: #1338e263;
+    background-color: #1338e2a6;
   }
   .bg2{
     background-image: url(img/fundo-section.jpg); 
     background-position: left top; 
     background-size: cover; 
+    background-repeat: repeat;
+  }
+  .bg3{
+    background-image: url(img/bg3.png);
+    background-position: left top;
+    background-size: 211px;
+    background-position-y: 60px;
     background-repeat: repeat;
   }
   .bold{
@@ -40,6 +47,14 @@
     margin-top: 30px;
     font-weight: bold;
     font-family: sans-serif;
+  }
+  .perfil-img{
+    background-image: url(img/perfil.jpeg);
+    height: 75px;
+    width: 102px;
+    background-size: cover;
+    background-position-y: -44px;
+    border-radius: 0px;
   }
   </style>
 </head>
@@ -76,7 +91,9 @@
   <section class="bg2">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="perfil-img"></div>
+        </div>
         <div class="col-md-6">
           <h1 class=" text-white text-center animate" style="display:none; font-weight: bold;font-size: 45px">
             Gilvan Moraes de Moura</h1>
@@ -114,7 +131,7 @@
 
   
   <section class="pb-4 pt-4">
-      <h1 class=" bg bold text-white text-center pr-3"></h1>
+      <h1 class="bold text-white text-center pr-3"></h1>
       <div class="bg">
        <div class="container">
            <h1 class="bold text-white">
@@ -207,19 +224,19 @@
     <div class="container text-center">
         <div class="row">
           <div class="col-md-3">
-            <a style="font-size: 18px" class="contato" href="https://api.whatsapp.com/send?phone=5561985836337&text=Sobre%20seu%20curr%C3%ADculo" target="_blank">
+            <a style="font-size: 18px" class="contato bold" href="https://api.whatsapp.com/send?phone=5561985836337&text=Sobre%20seu%20curr%C3%ADculo" target="_blank">
               <i class="fa fa-whatsapp"></i>
               61 9 8583-6337
             </a>
           </div>
           <div class="col-md-5">
-            <a class="contato" href="mailto:gilvan.moura@outlook.com.br" style="font-size: 18px">
+            <a class="contato bold" href="mailto:gilvan.moura@outlook.com.br" style="font-size: 18px">
               <i class="fa fa-envelope"></i>
                gilvan.moura@outlook.com.br
             </a>
           </div>
           <div class="col-md-4">
-            <a class="contato" href="cv.html" target="_blank" style="font-size: 18px">
+            <a class="contato bold" href="cv.html" target="_blank" style="font-size: 18px">
               <i class="fa fa-file"></i>
                Curriculum Vitae
             </a>
@@ -241,8 +258,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous" style=""></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script>
+    var options = {};//{ to: { width: 2000, height: 1000 } };
+
    $(document).ready(function(){
-    $('.animate').toggle(2000);
+    $('.animate').toggle(3000);
    });
   </script>
 </body>
