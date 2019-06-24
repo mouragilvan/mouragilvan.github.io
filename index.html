@@ -4,11 +4,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/file.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
   <style>
   .contato{
     font-size: 30px;
+    text-decoration: none !important;
+  }
+  .contato:hover{
+        background-color: #a3b1f447;
+        padding: 4px 11px;
   }
   .img-tec{
     width: 240px;
@@ -19,7 +25,7 @@
     background-color: whitesmoke;
   }
   .bg{
-    background-color: #1338e263;
+    background-color: #1338e2a6;
   }
   .bg2{
     background-image: url(img/fundo-section.jpg); 
@@ -27,8 +33,28 @@
     background-size: cover; 
     background-repeat: repeat;
   }
+  .bg3{
+    background-image: url(img/bg3.png);
+    background-position: left top;
+    background-size: 211px;
+    background-position-y: 60px;
+    background-repeat: repeat;
+  }
   .bold{
     font-weight: bold;
+  }
+  .sistemas{
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .perfil-img{
+    background-image: url(img/perfil.jpeg);
+    height: 75px;
+    width: 102px;
+    background-size: cover;
+    background-position-y: -44px;
+    border-radius: 0px;
   }
   </style>
 </head>
@@ -50,7 +76,7 @@
             <i class="fa fa-linkedin fa-fw"></i>
           </a> 
           </li>
-          <li class="nav-item"> <a class="nav-link" href="https://twitter.com/poetaepensador" target="_blank">
+          <li class="nav-item"> <a class="nav-link" href="https://twitter.com/dbbrasilonline" target="_blank">
               <i class="fa fa-twitter fa-fw"></i>
             </a> 
           </li>
@@ -65,7 +91,9 @@
   <section class="bg2">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="perfil-img"></div>
+        </div>
         <div class="col-md-6">
           <h1 class=" text-white text-center animate" style="display:none; font-weight: bold;font-size: 45px">
             Gilvan Moraes de Moura</h1>
@@ -74,13 +102,16 @@
     </div>
   </section>
   
-  <section class="text-center pt-4 pb-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1>Certificações<br><br></h1>
+  <section class=" pt-4 pb-4">
+    <div class="bg">
+       <div class="container">
+           <h1 class="bold text-white">
+             Certificações
+            </h1>
         </div>
-      </div>
+    </div> 
+    <div class="container text-center">
+    
       <div class="row justify-content-center">
         <div class="col-md-4"> <i class="d-block fa fa-3x mb-2 text-muted fa-certificate"></i>
           <h4> <b>Yellow Belt</b></h4>
@@ -99,9 +130,16 @@
   </section>
 
   
-  <section class="text-center  pb-4 pt-4">
-      <h1 class=" bg bold text-white text-center pr-3">Frameworks de desenvolvimento</h1>
-    <div class="container">
+  <section class="pb-4 pt-4">
+      <h1 class="bold text-white text-center pr-3"></h1>
+      <div class="bg">
+       <div class="container">
+           <h1 class="bold text-white">
+             Recursos utilizados
+            </h1>
+        </div>
+    </div> 
+    <div class="container text-center">
         <div class="row justify-content-center">
            <div class="col">
              <img src="img/php.png" alt="" class="img-tec">
@@ -120,9 +158,16 @@
   </section>
  
   
-  <section class="text-center pb-4 pt-4">
-      <h1 class=" bg bold text-white text-center pr-3">Experiências</h1>
-    <div class="container">
+  <section class="pb-4 pt-4">
+     
+    <div class="bg">
+       <div class="container">
+           <h1 class="bold text-white">
+             Experiências
+            </h1>
+        </div>
+    </div> 
+    <div class="container text-center">
        <div class="row justify-content-center">
            <div class="col">
              <img src="https://www.insertweb.com.br/assets/img/logo-insertweb.png" alt="">
@@ -144,33 +189,56 @@
     </div>
   </section>
  
-  <section class="text-center  pb-4 pt-4">
-     <h1 class=" bg bold text-white text-center pr-3">Formação</h1>
-    <div class="containet">
-       <img src="https://projecao.br/Content/fullDesign/images/logo.png" alt="">
+  <section class="pb-4 pt-4">
+    <div class="bg">
+       <div class="container">
+           <h1 class="bold text-white">
+             Formação
+            </h1>
+        </div>
+     </div>  
+    <div class="container text-center">
+       <div class="row">
+          <div class="col-md-6">
+              <img src="https://projecao.br/Content/fullDesign/images/logo.png" alt="" style="width:64%">
+          </div>
+          <div class="col-md-6">
+            <h1 class="sistemas">Sistemas de Informação</h1>
+            <span>Bacharelado</span>
+          </div>
+       </div>
+       
     </div>
   </section>
 
-  <section class="text-center pb-4 pt-4" >
-      <h1 class=" bg bold text-white text-center pr-3">Contatos</h1>
-    <div class="container">
+  <section class="pb-4 pt-4" >
+    
+     <div class="bg">
+       <div class="container">
+           <h1 class="bold text-white">
+             Contatos
+            </h1>
+        </div>
+     </div>  
+   
+    <div class="container text-center">
         <div class="row">
           <div class="col-md-3">
-            <a class="contato" href="https://api.whatsapp.com/send?phone=5561985836337&text=Sobre%20seu%20curr%C3%ADculo" target="_blank">
+            <a style="font-size: 18px" class="contato bold" href="https://api.whatsapp.com/send?phone=5561985836337&text=Sobre%20seu%20curr%C3%ADculo" target="_blank">
               <i class="fa fa-whatsapp"></i>
               61 9 8583-6337
             </a>
           </div>
           <div class="col-md-5">
-            <a class="contato" href="mailto:gilvan.moura@outlook.com.br">
+            <a class="contato bold" href="mailto:gilvan.moura@outlook.com.br" style="font-size: 18px">
               <i class="fa fa-envelope"></i>
                gilvan.moura@outlook.com.br
             </a>
           </div>
           <div class="col-md-4">
-            <a class="contato" href="curriculo.pdf">
+            <a class="contato bold" href="cv.html" target="_blank" style="font-size: 18px">
               <i class="fa fa-file"></i>
-               Currículo em PDF
+               Curriculum Vitae
             </a>
           </div>
         </div>
@@ -190,8 +258,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous" style=""></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script>
+    var options = {};//{ to: { width: 2000, height: 1000 } };
+
    $(document).ready(function(){
-    $('.animate').toggle(2000);
+    $('.animate').toggle(3000);
    });
   </script>
 </body>
