@@ -1,11 +1,14 @@
 body {
-	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #3b3b3b;
-	padding: 0px 20%;
+	
+}
+.container{
+	margin:0px 20%;
 }
 
 h1,h2 {
-	font-family: Georgia;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -27,6 +30,9 @@ h2 {
 .secao {
 	/*background-color: #eee;*/
 	padding-left: 15px;
+}
+.secao > p{
+	margin:2px 0px;
 }
 
 label {
