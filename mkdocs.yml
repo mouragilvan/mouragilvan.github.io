@@ -1,0 +1,16 @@
+site_name: GILVAN MOURA
+nav:
+    - Início: index.md
+    - "Sobre / contato": sobre-mim.md
+    - "Histórico profissional" : historico.md
+    - "Formação acadêmica": formacao.md
+    - Skills: skills.md
+    - CV em PDF: "/cv.pdf"
+theme: material
+language: pt
+extra_javascript:
+    - 'require.js'
+    - 'custom.js'
+extra_css:
+    - 'custom.css' 
+    - 'bootstrap.css'

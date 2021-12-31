@@ -1,0 +1,28 @@
+.md-nav__title, .md-footer-meta__inner{
+    display: none !important;
+}
+
+.row{
+  display: flex;
+}
+
+.padding-left-5{
+   padding-left: 5%;
+}
+.md-nav__link{
+  border: 1px solid;
+    padding: 10px;
+    border-radius: 17px;
+    text-align: center;
+    
+}
+.custom-bg-color{
+  background-color: #4051b5ba !important;
+}
+a{
+ text-decoration: none !important;
+}
+
+.custom-theme-color{
+  background-color: #4051b5 !important;
+}
