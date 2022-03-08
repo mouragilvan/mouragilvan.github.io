@@ -1,8 +1,18 @@
 # Histórico profissional
 
+## G4F Soluções Corporativas - MINISTÉRIO DE RELAÇÕES EXTERIORES
+
+* Desenvolvedor | Brasília, DF | Janeiro/2022 - ATUAL
+
+Desenvolvimento em PHP 7.2 
+
+Manutenção e desenvolvimento de APIS utilizando o Zend Framework / APIGILITY  (Laminas)
+
+Manutenção e desenvolvimento de aplicações em ReactJS e AngularJS 
+
 ## Campanha Nacional de Escolas - CNEC
 
-* Desenvolvedor | Brasília, DF | Janeiro Julho/2020 - Atual
+* Desenvolvedor | Brasília, DF | Julho/2020 - Janeiro/2022
 
 Desenvolvimento em PHP 7.2 e Laravel
 
