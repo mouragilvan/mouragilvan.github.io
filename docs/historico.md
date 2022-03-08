@@ -2,7 +2,7 @@
 
 ## G4F Soluções Corporativas - MINISTÉRIO DE RELAÇÕES EXTERIORES
 
-* Desenvolvedor | Brasília, DF | Janeiro/2022 - ATUAL
+* Desenvolvedor | Brasília, DF | Janeiro/2022 - <span class="custom-badge">ATUAL</span>
 
 Manutenção e desenvolvimento de APIS utilizando o Zend Framework / APIGILITY  (Laminas)
 

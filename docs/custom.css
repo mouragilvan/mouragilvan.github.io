@@ -26,3 +26,9 @@ a{
 .custom-theme-color{
   background-color: #4051b5 !important;
 }
+
+.custom-badge{
+  background-color: lightgreen; 
+  color: black; 
+  padding: 3px
+}
