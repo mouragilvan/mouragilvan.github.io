@@ -4,8 +4,6 @@
 
 * Desenvolvedor | Brasília, DF | Janeiro/2022 - ATUAL
 
-Desenvolvimento em PHP 7.2 
-
 Manutenção e desenvolvimento de APIS utilizando o Zend Framework / APIGILITY  (Laminas)
 
 Manutenção e desenvolvimento de aplicações em ReactJS e AngularJS 
