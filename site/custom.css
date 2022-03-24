@@ -26,3 +26,28 @@ a{
 .custom-theme-color{
   background-color: #4051b5 !important;
 }
+
+.custom-badge{
+  background-color: lightgreen; 
+  color: black; 
+  padding: 3px
+}
+
+.pdf{
+  position: absolute;
+  width: 100%;
+  border: 1px solid gray;
+  right: 1px;
+  top: 1px;
+  padding: 0px 100px;
+  background-color: white !important;
+  z-index: 99;
+}
+
+.pdf > h4 {
+  color: gray;
+  font-size: 14px;
+}
+.pdf > p, li {
+  font-size: 12px;
+}
