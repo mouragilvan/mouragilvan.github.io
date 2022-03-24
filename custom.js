@@ -188,11 +188,26 @@ if (pathName == "/") {
 
 }
 
-
-
-
 // .classList.add("animate__animated");
 // document.getElementsByClassName('.md-nav__item').classList.add("animate__flipInX"); 
 
+/* Envia para a impressão PDF*/
+
+if(pathName == "/pdf/"){
+  // window.print();
+}
+
+function fechar(){
+    window.location.href="/"
+}
 
 
+// if (window.matchMedia) {
+//    var mediaQueryList = window.matchMedia('print');
+   
+//    mediaQueryList.addListener(function(mql) {
+//       if (!mql.matches) {
+//         window.location.href="/"
+//       } 
+//   });
+// }
