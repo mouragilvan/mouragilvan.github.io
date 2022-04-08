@@ -1,39 +1,43 @@
-.md-nav__title, .md-footer-meta__inner{
-    display: none !important;
+.md-nav__title,
+.md-footer-meta__inner {
+  display: none !important;
 }
 
-.row{
+.row {
   display: flex;
 }
 
-.padding-left-5{
-   padding-left: 5%;
-}
-.md-nav__link{
-  border: 1px solid;
-    padding: 10px;
-    border-radius: 17px;
-    text-align: center;
-    
-}
-.custom-bg-color{
-  background-color: #4051b5ba !important;
-}
-a{
- text-decoration: none !important;
+.padding-left-5 {
+  padding-left: 5%;
 }
 
-.custom-theme-color{
+.md-nav__link {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 17px;
+  text-align: center;
+
+}
+
+.custom-bg-color {
+  background-color: #4051b5ba !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.custom-theme-color {
   background-color: #4051b5 !important;
 }
 
-.custom-badge{
-  background-color: lightgreen; 
-  color: black; 
+.custom-badge {
+  background-color: lightgreen;
+  color: black;
   padding: 3px
 }
 
-.pdf{
+.pdf {
   position: absolute;
   width: 100%;
   border: 1px solid gray;
@@ -44,10 +48,31 @@ a{
   z-index: 99;
 }
 
-.pdf > h4 {
+.pdf>h4 {
   color: gray;
   font-size: 14px;
 }
-.custom-ul > li {
+
+.custom-ul>li {
   font-size: 12px;
+}
+
+@media (min-width: 1025px) {
+
+  /* CSS help in https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
+  .whatsapp {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3670/premium/3670051.png?token=exp=1649441243~hmac=7c16dae2ac7acb234120ba20fdf0caec);
+    padding: 50px;
+    background-size: cover;
+  }
+/*    
+  .whatsapp[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: -100%;
+    left: 0;
+  } */
 }
