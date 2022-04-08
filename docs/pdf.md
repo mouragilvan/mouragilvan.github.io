@@ -21,7 +21,7 @@ produto final.</p>
 <hr size="2" color="gray" width="100%">
 
 <h2>HISTÓRICO PROFISSIONAL</h2>
-<h3>Campanha Nacional de Escolas - CNEC</h3>
+<h3>G4F Soluções Corporativas</h3>
 <h4>Desenvolvedor | Brasília, DF | Janeiro/ 2022 - Atual</h4>
 <ul class="custom-ul">
     <li>Manutenção e desenvolvimento de APIS utilizando o Zend Framework / APIGILITY  (Laminas)</li>
