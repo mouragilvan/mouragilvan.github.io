@@ -194,7 +194,7 @@ if (pathName == "/") {
 /* Envia para a impressão PDF*/
 
 if(pathName == "/pdf/"){
-   window.print();
+    window.print();
 }
 
 function fechar(){
