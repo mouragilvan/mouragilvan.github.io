@@ -48,6 +48,6 @@ a{
   color: gray;
   font-size: 14px;
 }
-.pdf > p, li {
+.custom-ul > li {
   font-size: 12px;
 }
