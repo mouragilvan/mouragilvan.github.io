@@ -211,3 +211,13 @@ if (window.matchMedia) {
       } 
   });
 }
+
+/**** LINK PARA WHATSAPP ***/
+var _tag = document.createElement("a");
+// var _text = document.createTextNode("This is link");
+// _tag.appendChild(_text);
+_tag.href="https://wa.me/5561982449780"; 
+_tag.target="_blank";
+_tag.className = "whatsapp";
+_tag.title= "FALE COMIGO PELO WHATSAPP";
+ document.body.appendChild(_tag); 
