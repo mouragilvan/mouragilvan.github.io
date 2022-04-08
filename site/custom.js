@@ -194,7 +194,7 @@ if (pathName == "/") {
 /* Envia para a impressão PDF*/
 
 if(pathName == "/pdf/"){
-  // window.print();
+    window.print();
 }
 
 function fechar(){
@@ -202,12 +202,12 @@ function fechar(){
 }
 
 
-// if (window.matchMedia) {
-//    var mediaQueryList = window.matchMedia('print');
+if (window.matchMedia) {
+   var mediaQueryList = window.matchMedia('print');
    
-//    mediaQueryList.addListener(function(mql) {
-//       if (!mql.matches) {
-//         window.location.href="/"
-//       } 
-//   });
-// }
+   mediaQueryList.addListener(function(mql) {
+      if (!mql.matches) {
+        window.location.href="/"
+      } 
+  });
+}
