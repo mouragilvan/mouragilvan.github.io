@@ -15,12 +15,19 @@ Web Development, possuindo mais de sete anos de experiência na área de
 desenvolvimento. Com competência no gerenciamento de todos os estágios do
 ciclo de desenvolvimento, desde a coleta de requisitos e prototipação a
 implantação e manutenção, realizando todos os testes necessários para garantir
-a funcionalidade do produto. Reconhecido por agilidade, raciocínio analítico e
+a funcionalidade do produto. Reconhecido por raciocínio analítico e
 comunicação com as demais áreas e setores para garantir a qualidade do
 produto final.</p>
 <hr size="2" color="gray" width="100%">
 
 <h2>HISTÓRICO PROFISSIONAL</h2>
+<h3>Campanha Nacional de Escolas - CNEC</h3>
+<h4>Desenvolvedor | Brasília, DF | Janeiro/ 2022 - Atual</h4>
+<ul class="custom-ul">
+    <li>Manutenção e desenvolvimento de APIS utilizando o Zend Framework / APIGILITY  (Laminas)</li>
+    <li>Manutenção e desenvolvimento de aplicações em ReactJS e AngularJS</li>     
+</ul>
+
 <h3>Campanha Nacional de Escolas - CNEC</h3>
 <h4>Desenvolvedor | Brasília, DF | Julho/ 2020 - Janeiro/2022</h4>
 <ul class="custom-ul">
