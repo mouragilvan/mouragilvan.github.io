@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inspiration&family=Lobster&display=swap');
+
+body{
+  background-color: lavender !important;
+}
+
 .md-nav__title,
 .md-footer-meta__inner {
   display: none !important;
@@ -11,12 +17,16 @@
   padding-left: 5%;
 }
 
+/* ESTILO DOS LINKS DO MENU LATERAL */
 .md-nav__link {
-  border: 1px solid;
+  font-size: 20px; 
+  /* border: 1px solid;
   padding: 10px;
   border-radius: 17px;
-  text-align: center;
-
+  text-align: center; */
+}
+.md-footer__link{
+  color: white !important;
 }
 
 .custom-bg-color {
@@ -25,7 +35,17 @@
 
 a {
   text-decoration: none !important;
+  color: black !important;
 }
+.md-nav__link{
+  font-family: 'Alfa Slab One', cursive;
+}
+.md-nav__link--active{
+  color: #4051b5 !important;
+  border-left: 1px solid #4051b5; 
+  padding-left: 3px;
+}
+
 
 .custom-theme-color {
   background-color: #4051b5 !important;
@@ -64,7 +84,7 @@ a {
     position: fixed;
     bottom: 100px;
     right: 100px;
-    background-image: url(https://cdn-icons.flaticon.com/png/512/3670/premium/3670051.png?token=exp=1649441243~hmac=7c16dae2ac7acb234120ba20fdf0caec);
+    background-image: url('./imagens/whatsapp.png');
     padding: 50px;
     background-size: cover;
   }
@@ -75,4 +95,8 @@ a {
     top: -100%;
     left: 0;
   } */
+}
+
+.animate__animated{
+  border-radius: 20px;;
 }
