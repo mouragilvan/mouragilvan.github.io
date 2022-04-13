@@ -1,6 +1,7 @@
 # Informações pessoais
 
-* Estado civil: casado
+* Estado civil: Casado
+* Filhos: 3
 * Idade: 36
 * Reside em: Ceilândia/DF
 
