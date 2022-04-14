@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inspiration&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inspiration&family=Lobster&family=Montserrat&display=swap');
 
-body{
+body {
   background-color: lavender !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .md-nav__title,
@@ -16,16 +17,20 @@ body{
 .padding-left-5 {
   padding-left: 5%;
 }
-
+/*ESTILO DA BARRA DE SKILLS*/
+.progress{
+  background-color: #f8f9fa !important;
+}
 /* ESTILO DOS LINKS DO MENU LATERAL */
 .md-nav__link {
-  font-size: 20px; 
+  font-size: 20px;
   /* border: 1px solid;
   padding: 10px;
   border-radius: 17px;
   text-align: center; */
 }
-.md-footer__link{
+
+.md-footer__link {
   color: white !important;
 }
 
@@ -37,12 +42,14 @@ a {
   text-decoration: none !important;
   color: black !important;
 }
-.md-nav__link{
-  font-family: 'Alfa Slab One', cursive;
+
+.md-nav__link {
+  /* font-family: 'Montserrat', sans-serif; */
 }
-.md-nav__link--active{
+
+.md-nav__link--active {
   color: #4051b5 !important;
-  border-left: 1px solid #4051b5; 
+  border-left: 1px solid #4051b5;
   padding-left: 3px;
 }
 
@@ -77,26 +84,54 @@ a {
   font-size: 12px;
 }
 
+.animate__animated {
+  border-radius: 20px;
+  ;
+}
+
+/* MEDIA QUERYES */
+/* PARA TELAS DE PC*/
 @media (min-width: 1025px) {
 
   /* CSS help in https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
   .whatsapp {
     position: fixed;
-    bottom: 100px;
+    bottom: 300px;
     right: 100px;
     background-image: url('./imagens/whatsapp.png');
     padding: 50px;
     background-size: cover;
   }
-/*    
+
+  /*    
   .whatsapp[title]:hover::after {
     content: attr(title);
     position: absolute;
     top: -100%;
     left: 0;
   } */
+  .custom-row-profile {
+    position: fixed
+  }
+
+  .custom-row-center {
+    margin-top: auto;
+  }
+
+  #perfil-mobile{
+    display: none;
+  }
 }
 
-.animate__animated{
-  border-radius: 20px;;
+/* PARA MOBILE*/
+@media (max-width: 1000px) {
+  .custom-row-profile {
+    text-align: center;
+  }
+  #inicio{
+    display: none;
+  }
+  .custom-right-section{
+    /* display: none; */
+  }
 }
