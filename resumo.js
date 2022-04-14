@@ -18,7 +18,7 @@ if(pathName == "/"){
     
     var left_section_image = "./imagens/meuperfil.jpg";
 
-    var left_section_image_css = "height: 300px;box-shadow: 17px 5px 29px 12px grey;border-radius:5px";
+    var left_section_image_css = "height: 300px;";
 
     var left_section_html  = "<div class='row custom-row-profile' >";
    
