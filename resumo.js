@@ -12,19 +12,23 @@ if(pathName == "/"){
 
   
     var left_section = document.getElementsByClassName('md-sidebar__scrollwrap');
+    var center_section_mobile = document.getElementById('perfil-mobile');
 
     left_section[1].innerHTML = "";
-
+    
     var left_section_image = "./imagens/meuperfil.jpg";
 
-    var left_section_image_css = "height: 300px;box-shadow: 17px 5px 29px 12px grey;border-radius:27px";
+    var left_section_image_css = "height: 300px;box-shadow: 17px 5px 29px 12px grey;border-radius:5px";
 
-    var left_section_html  = "<div class='row' style='position: absolute'>";
+    var left_section_html  = "<div class='row custom-row-profile' >";
    
         left_section_html += "<div class='col'><img src='"+left_section_image+"'  style='"+left_section_image_css+"'/></div>";
         
         left_section_html += "</div>";
 
         left_section[1].innerHTML = left_section_html;
+
+        center_section_mobile.innerHTML = left_section_html;
+
 
 }
