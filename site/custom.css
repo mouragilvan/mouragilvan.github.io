@@ -85,8 +85,13 @@ a {
 }
 
 .animate__animated {
-  border-radius: 20px;
-  ;
+  border-radius: 20px;  
+}
+
+/* ESTILO PARA AS IMAGENS DA HOME*/
+.row > .col > img {
+  height: 150px;
+  width:100%;
 }
 
 /* MEDIA QUERYES */

@@ -26,3 +26,11 @@
    <img src="/imagens/postgresql.png" class="animate__animated animate__flipInX" style="animation-duration: 3s;">
  </div>
 </div>
+<div class="row mt-3">
+ <div class="col">
+   <img src="./imagens/ionic.png" class="animate__animated animate__flipInX" style="animation-duration: 3s;">
+ </div>
+  <div class="col">
+   
+ </div>
+</div>
