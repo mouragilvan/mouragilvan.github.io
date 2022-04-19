@@ -92,8 +92,17 @@ a {
 .row > .col > img {
   height: 150px;
   width:100%;
+ 
 }
-
+.stack-img{
+  transition: all 0.5s !important;
+}
+.stack-img:hover{
+  -webkit-transform: scale(1.3) !important;
+  transform: scale(1.3) !important;
+  background-color: white;
+  z-index: 999;
+}
 /* MEDIA QUERYES */
 /* PARA TELAS DE PC*/
 @media (min-width: 1025px) {
