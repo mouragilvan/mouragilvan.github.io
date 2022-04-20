@@ -116,6 +116,10 @@ a {
     padding: 50px;
     background-size: cover;
   }
+  .whatsapp:hover {
+    box-shadow: 3px 5px 23px 8px #29a71a; 
+    border-radius: 100%;
+  }
 
   /*    
   .whatsapp[title]:hover::after {
