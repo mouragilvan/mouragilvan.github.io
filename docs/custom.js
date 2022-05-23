@@ -110,31 +110,32 @@ if (pathName == "/") {
 
 /* Envia para a impressão PDF*/
 
-if(pathName == "/pdf/"){
-    window.print();
+if (pathName == "/pdf/") {
+   window.print();
 }
 
-function fechar(){
-    window.location.href="/"
+function fechar() {
+   window.location.href = "/"
 }
 
 
 if (window.matchMedia) {
    var mediaQueryList = window.matchMedia('print');
-   
-   mediaQueryList.addListener(function(mql) {
+
+   mediaQueryList.addListener(function (mql) {
       if (!mql.matches) {
-        window.location.href="/"
-      } 
-  });
+         window.location.href = "/"
+      }
+   });
 }
 
 /**** LINK PARA WHATSAPP ***/
 var _tag = document.createElement("a");
 // var _text = document.createTextNode("This is link");
 // _tag.appendChild(_text);
-_tag.href="https://wa.me/5561982449780"; 
-_tag.target="_blank";
+_tag.href = "https://wa.me/5561982449780";
+_tag.target = "_blank";
 _tag.className = "whatsapp";
-_tag.title= "FALE COMIGO PELO WHATSAPP";
- document.body.appendChild(_tag); 
+_tag.title = "FALE COMIGO PELO WHATSAPP";
+document.body.appendChild(_tag);
+
