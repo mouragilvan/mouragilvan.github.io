@@ -11,3 +11,7 @@ Scrum Fundamentals Certified Nº 606550
 
 ## Six Sigma
 Yellow Belt Nº 588621
+
+
+
+<div id="vlibras"></div>
