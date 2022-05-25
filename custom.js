@@ -140,9 +140,10 @@ _tag.title = "FALE COMIGO PELO WHATSAPP";
 document.body.appendChild(_tag);
 
 
-//Remover o título Início da Home
+//Remover o título da Home e da página de Skills
 setTimeout(function () {
    document.getElementById("inicio").style.display = "none";
+   document.getElementById("skills").style.display = "none";
 }, 300);
 
 
