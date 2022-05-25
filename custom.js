@@ -140,11 +140,19 @@ _tag.title = "FALE COMIGO PELO WHATSAPP";
 document.body.appendChild(_tag);
 
 
+
 //Remover o título da Home e da página de Skills
 setTimeout(function () {
-   document.getElementById("inicio").style.display = "none";
-   document.getElementById("skills").style.display = "none";
+   document.getElementById("inicio").style.display = "none";   
 }, 300);
+
+if (pathName == "/skills/") {
+   setTimeout(function () {
+      document.getElementById("skills").style.display = "none";   
+      document.getElementById("linguagens").style.cssText="margin-top:0px;margin-bottom:15px";
+   }, 300);
+}
+   
 
 
 //Adiciona links das redes sociais
