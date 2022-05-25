@@ -142,10 +142,13 @@ document.body.appendChild(_tag);
 
 
 //Remover o título da Home e da página de Skills
-setTimeout(function () {
-   document.getElementById("inicio").style.display = "none";   
-}, 300);
 
+if (pathName == "/") {
+   setTimeout(function () {
+      document.getElementById("inicio").style.display = "none";   
+   }, 300);
+}
+   
 if (pathName == "/skills/") {
    setTimeout(function () {
       document.getElementById("skills").style.display = "none";   
@@ -170,4 +173,3 @@ divSocial.innerHTML = `<a style="color:white !important" href="https://github.co
 `;
 
 header[0].appendChild(divSocial);
-console.log(header);
