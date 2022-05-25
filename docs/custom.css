@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inspiration&family=Lobster&family=Montserrat&display=swap');
 
 body {
-  background-color: lavender !important;
+  /* background-color: lavender !important; */
   font-family: 'Montserrat', sans-serif !important;
 }
 
 .md-nav__title,
 .md-footer-meta__inner {
   display: none !important;
+}
+
+.md-header[data-md-state=shadow] {
+  box-shadow: 0px 12px 21px 0px grey;
+  transition: transform .25s cubic-bezier(.1,.7,.1,1),box-shadow .25s;
 }
 
 .row {
@@ -95,7 +100,7 @@ a {
   }
 
 .row > .col > img {
-  height: 150px;
+  height: 122px;
   width:100%;
  
 }
