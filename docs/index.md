@@ -30,8 +30,8 @@
  <div class="col">
    <img src="./imagens/ionic.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
  </div>
-  <div class="col">
-   
+ <div class="col">
+    <img src="./imagens/vue.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
  </div>
 </div>
 
