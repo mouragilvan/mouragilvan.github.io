@@ -40,7 +40,7 @@ REACT NATIVE
   <div id="nodejs-skill" class="progress-bar custom-bg-color" role="progressbar"  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 NODE JS
-## BANCO DE DADOS
+## BANCOS DE DADOS
 <div class="progress">
   <div id="sqlserver-skill" class="progress-bar custom-bg-color" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
@@ -52,4 +52,3 @@ SQL SERVER
 POSTGRESQL
 
 
-<div id="vlibras"></div>

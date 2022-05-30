@@ -73,4 +73,3 @@ Implantação de módulos e atualizações do sistema TOTVS-RM
 Criação e manutenção de relatórios baseados em T-SQL
 
 
-<div id="vlibras"></div>

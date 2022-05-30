@@ -14,4 +14,3 @@ Yellow Belt Nº 588621
 
 
 
-<div id="vlibras"></div>
