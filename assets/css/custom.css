@@ -121,6 +121,7 @@ a {
 
   /* CSS help in https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
   .whatsapp {
+    display: none;
     position: fixed;
     bottom: 300px;
     right: 100px;
@@ -153,6 +154,8 @@ a {
   }
 }
 
+
+
 /* PARA MOBILE*/
 @media (max-width: 1000px) {
   .custom-row-profile {
@@ -163,6 +166,19 @@ a {
   }
   .custom-right-section{
     /* display: none; */
+  }
+  /* CSS help in https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
+  .whatsapp {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    background-image: url('./imagens/whatsapp.png');
+    padding: 30px;
+    background-size: cover;
+  }
+  .whatsapp:hover {
+    box-shadow: 3px 5px 23px 8px #29a71a; 
+    border-radius: 100%;
   }
 }
 
