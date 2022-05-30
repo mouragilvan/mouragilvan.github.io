@@ -18,11 +18,11 @@ if(pathName == "/"){
     
     var left_section_image = "./imagens/meuperfil.jpg";
 
-    var left_section_image_css = "height: 300px;";
+    var left_section_image_css = "height: 300px;border-radius:4px";
 
     var left_section_html  = "<div class='row custom-row-profile' >";
    
-        left_section_html += "<div class='col'><img src='"+left_section_image+"'  style='"+left_section_image_css+"'/></div>";
+        left_section_html += "<div class='col' style='background:none;'><img src='"+left_section_image+"'  style='"+left_section_image_css+"'/></div>";
         
         left_section_html += "</div>";
 
