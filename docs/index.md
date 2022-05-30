@@ -3,7 +3,7 @@
 <div id="perfil-mobile" class="mb-4"></div>
 
 <div class="row custom-row-center">
-  <div class="col">
+  <div class="col mr-5">
    <img src="/imagens/laravel.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
   </div>
   <div class="col">
@@ -11,7 +11,7 @@
   </div>
 </div>
 <div class="row mt-2">
- <div class="col">
+ <div class="col mr-5">
    <img src="/imagens/nodejs.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
  </div>
   <div class="col">
@@ -19,7 +19,7 @@
  </div>
 </div>
 <div class="row mt-3">
- <div class="col">
+ <div class="col mr-5">
    <img src="./imagens/sqlserver.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
  </div>
   <div class="col">
@@ -27,7 +27,7 @@
  </div>
 </div>
 <div class="row mt-3">
- <div class="col">
+ <div class="col mr-5">
    <img src="./imagens/ionic.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
  </div>
  <div class="col">
