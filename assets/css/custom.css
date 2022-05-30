@@ -15,11 +15,15 @@ body {
   transition: transform .25s cubic-bezier(.1,.7,.1,1),box-shadow .25s;
 }
 
-
-
+/* ESTILO CUSTOMIZADO DAS LARGURAS, PADDINGS E ETC.*/
 .padding-left-5 {
   padding-left: 5%;
 }
+.mr-5{
+  margin-right:5px;
+}
+
+
 /* ESTILO DA ROW e COL*/
 .row {
   display: flex;
