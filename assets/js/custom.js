@@ -146,7 +146,25 @@ document.body.appendChild(_tag);
 if (pathName == "/") {
    setTimeout(function () {
       document.getElementById("inicio").style.display = "none";   
+      document.getElementsByClassName("md-nav__list")[0].classList.add("menu_lateral");
+      var video = document.getElementsByTagName("video")[0];
+      var live = document.getElementsByTagName("iframe")[0];
+      if(video.getAttribute("status")=="off"){
+         video.style.display="none";
+      }
+      if(live.getAttribute("status")=="off"){
+         live.style.display="none";
+      }
+      if(video.getAttribute("status")=="on" && live.getAttribute("status")=="on"){
+         video.style.display="none";
+         live.style.display="none";
+      }
+
    }, 300);
+   /*
+   Ajuste para o vídeo de fundo que impacta no menu lateral
+     
+   */
 }
    
 if (pathName == "/skills/") {

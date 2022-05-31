@@ -23,7 +23,7 @@ if (pathName == "/") {
     var left_section_html = ` <div class='custom-row-profile' style='background:none;'>
                                <img src='${left_section_image}' style='${left_section_image_css}'/>
                               </div>
-                              <div class='' style='margin-top:320px;'>
+                              <div class='certificacoes'>
                                   <img src='./imagens/scrum.png' width='120px'/>                                 
                                   <img src='./imagens/sfc.png' width='120px' style="cursor: pointer" 
                                    onClick="javascript:window.open('https://www.scrumstudy.com/certification/verify?type=SFC&number=606550','_blank')"/>                                 
