@@ -15,6 +15,7 @@ body {
   transition: transform .25s cubic-bezier(.1,.7,.1,1),box-shadow .25s;
 }
 
+
 /* ESTILO CUSTOMIZADO DAS LARGURAS, PADDINGS E ETC.*/
 .padding-left-5 {
   padding-left: 5%;
@@ -163,8 +164,18 @@ a {
   #perfil-mobile{
     display: none;
   }
-}
 
+  .certificacoes{
+    margin-top:320px;
+  } 
+
+  .menu_lateral{
+    background: white;
+    border-radius:10px;
+    opacity: 0.8;
+  }
+  
+}
 
 
 /* PARA MOBILE*/
@@ -190,6 +201,16 @@ a {
   .whatsapp:hover {
     box-shadow: 3px 5px 23px 8px #29a71a; 
     border-radius: 100%;
+  }
+  .certificacoes{
+    margin-top:20px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+  }
+
+  /*Removendo os vídeos para o modo responsivo*/
+  .video, .iframe{
+    display: none;
   }
 }
 
