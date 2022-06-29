@@ -34,15 +34,25 @@
     <img src="./imagens/vue.png" class="animate__animated animate__flipInX stack-img" style="animation-duration: 3s;">
  </div>
 </div>
+<div class="row mt-4" style="display:none">
+   <div class="col-md-4">
+    <button class="btn btn-secondary video1">VÍDEO 1</button>
+   </div>
+   <div class="col-md-4">
+   <button class="btn btn-secondary">VÍDEO 2</button>
+   </div>
+   <div class="col-md-4">
+   <button class="btn btn-warning">DESLIGAR VÍDEO</button>
+   </div>
+</div>
 
-
-<video class="video" status="off" name="video" autoplay muted loop style="position:fixed;top:0px;width:100%;left:0px;z-index:-1;bottom:20px !important">
+<video class="video" status="on" name="video" autoplay muted loop style="position:fixed;top:0px;width:100%;left:0px;z-index:-1;bottom:20px !important">
     <source src="video.mp4" type="video/mp4">
 </video>
 
 
 <!-- Em caso de remoção do iframe, comentar ou remover a linha 149 do arquivo custom.js -->
-<iframe class="iframe" status="on" src="https://www.youtube.com/embed/21X5lGlDOfg?autoplay=1&mute=1" title="Vídeo do Youtube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+<iframe class="iframe" status="off" src="https://www.youtube.com/embed/21X5lGlDOfg?autoplay=1&mute=1" title="Vídeo do Youtube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 style="position:fixed;top:0px;width:100%;left:0px;z-index:-1;height:100%;" autoplay
 ></iframe>
 
