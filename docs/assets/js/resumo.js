@@ -16,7 +16,7 @@ if (pathName == "/") {
 
     left_section[1].innerHTML = "";
 
-    var left_section_image = "./imagens/meuperfil.jpg";
+    var left_section_image = "./imagens/imagem_perfil.png";
 
     var left_section_image_css = "height: 300px;border-radius:4px";
 
