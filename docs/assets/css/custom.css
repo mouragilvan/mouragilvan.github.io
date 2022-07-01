@@ -65,10 +65,11 @@ a {
 }
 
 .md-nav__link--active {
-  color: white !important;
-  padding-left: 3px;
-  background-color: #4051b5;
-  border-radius: 4px;
+ /* color: white !important; */
+ padding-left: 3px;
+ /* background-color: #4051b5; */
+ border-radius: 4px;
+ box-shadow: 0px 5px 27px 4px;
 }
 
 
@@ -169,10 +170,8 @@ a {
     margin-top:320px;
   } 
 
-  .menu_lateral{
-    background: white;
-    border-radius:10px;
-    opacity: 0.8;
+  .menu_lateral{    
+    font-weight: 800;    
   }
   
 }

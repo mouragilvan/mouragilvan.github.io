@@ -191,3 +191,17 @@ divSocial.innerHTML = `<a style="color:white !important" href="https://github.co
 `;
 
 header[0].appendChild(divSocial);
+
+
+if (pathName == "/sobre-mim/") {
+  
+   const dtNascimento = new Date(1985,7,11);
+   const dtAtual = new Date();
+   const idade =  dtAtual.getMonth() >= dtNascimento.getMonth() && dtAtual.getDay() >= dtNascimento.getDay() ? dtAtual.getFullYear() - dtNascimento.getFullYear() : (dtAtual.getFullYear() - dtNascimento.getFullYear()) - 1;
+   document.getElementById("idade").innerHTML = idade;
+}
+   
+
+
+   
+   
