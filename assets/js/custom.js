@@ -199,6 +199,10 @@ if (pathName == "/sobre-mim/") {
    const dtAtual = new Date();
    const idade =  dtAtual.getMonth() >= dtNascimento.getMonth() && dtAtual.getDay() >= dtNascimento.getDay() ? dtAtual.getFullYear() - dtNascimento.getFullYear() : (dtAtual.getFullYear() - dtNascimento.getFullYear()) - 1;
    document.getElementById("idade").innerHTML = idade;
+
+   //remover o menu da direita
+   var menuDireita = document.getElementsByClassName("md-sidebar__scrollwrap")[1];
+   menuDireita.style.cssText = "display: none";
 }
    
 
