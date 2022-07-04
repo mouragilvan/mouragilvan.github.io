@@ -205,7 +205,16 @@ if (pathName == "/sobre-mim/") {
    menuDireita.style.cssText = "display: none";
 }
    
+var itemMenuLateral = document.getElementsByClassName("md-nav__link");
 
+for(var i=0;i<=itemMenuLateral.length;i++){
+   itemMenuLateral[i].addEventListener('mouseover',function(){
+      this.style.cssText = "border-bottom-style: outset";
+   });
 
+   itemMenuLateral[i].addEventListener('mouseout',function(){
+      this.style.cssText = "border: none";
+   });
+}
    
    
