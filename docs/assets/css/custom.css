@@ -69,7 +69,8 @@ a {
  padding-left: 3px;
  /* background-color: #4051b5; */
  border-radius: 4px;
- box-shadow: 0px 5px 27px 4px;
+ box-shadow: 0px 4px 98px 4px;
+ border-bottom-style: outset !important;
 }
 
 
