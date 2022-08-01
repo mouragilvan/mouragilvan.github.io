@@ -145,19 +145,19 @@ document.body.appendChild(_tag);
 
 if (pathName == "/") {
    setTimeout(function () {
-      document.getElementById("inicio").style.display = "none";   
+      document.getElementById("inicio").style.display = "none";
       document.getElementsByClassName("md-nav__list")[0].classList.add("menu_lateral");
       var video = document.getElementsByTagName("video")[0];
       var live = document.getElementsByTagName("iframe")[0];
-      if(video.getAttribute("status")=="off"){
-         video.style.display="none";
+      if (video.getAttribute("status") == "off") {
+         video.style.display = "none";
       }
-      if(live.getAttribute("status")=="off"){
-         live.style.display="none";
+      if (live.getAttribute("status") == "off") {
+         live.style.display = "none";
       }
-      if(video.getAttribute("status")=="on" && live.getAttribute("status")=="on"){
-         video.style.display="none";
-         live.style.display="none";
+      if (video.getAttribute("status") == "on" && live.getAttribute("status") == "on") {
+         video.style.display = "none";
+         live.style.display = "none";
       }
 
    }, 300);
@@ -166,14 +166,14 @@ if (pathName == "/") {
      
    */
 }
-   
+
 if (pathName == "/skills/") {
    setTimeout(function () {
-      document.getElementById("skills").style.display = "none";   
-      document.getElementById("linguagens").style.cssText="margin-top:0px;margin-bottom:15px";
+      document.getElementById("skills").style.display = "none";
+      document.getElementById("linguagens").style.cssText = "margin-top:0px;margin-bottom:15px";
    }, 300);
 }
-   
+
 
 
 //Adiciona links das redes sociais
@@ -194,27 +194,29 @@ header[0].appendChild(divSocial);
 
 
 if (pathName == "/sobre-mim/") {
-  
-   const dtNascimento = new Date(1985,7,11);
+
+   const dtNascimento = new Date(1985, 7, 11);
    const dtAtual = new Date();
-   const idade =  dtAtual.getMonth() >= dtNascimento.getMonth() && dtAtual.getDay() >= dtNascimento.getDay() ? dtAtual.getFullYear() - dtNascimento.getFullYear() : (dtAtual.getFullYear() - dtNascimento.getFullYear()) - 1;
+   const idade = dtAtual.getMonth() >= dtNascimento.getMonth() && dtAtual.getDay() >= dtNascimento.getDay() ? dtAtual.getFullYear() - dtNascimento.getFullYear() : (dtAtual.getFullYear() - dtNascimento.getFullYear()) - 1;
    document.getElementById("idade").innerHTML = idade;
 
    //remover o menu da direita
    var menuDireita = document.getElementsByClassName("md-sidebar__scrollwrap")[1];
    menuDireita.style.cssText = "display: none";
 }
-   
+
 var itemMenuLateral = document.getElementsByClassName("md-nav__link");
 
-for(var i=0;i<=itemMenuLateral.length;i++){
-   itemMenuLateral[i].addEventListener('mouseover',function(){
-      this.style.cssText = "border-bottom-style: outset";
-   });
+for (var i = 0; i <= itemMenuLateral.length; i++) {
+   if (itemMenuLateral[i] != undefined) {
+      itemMenuLateral[i].addEventListener('mouseover', function () {
+         this.style.cssText = "border-bottom-style: outset";
+      });
 
-   itemMenuLateral[i].addEventListener('mouseout',function(){
-      this.style.cssText = "border: none";
-   });
+      itemMenuLateral[i].addEventListener('mouseout', function () {
+         this.style.cssText = "border: none";
+      });
+   }
 }
-   
-   
+
+
