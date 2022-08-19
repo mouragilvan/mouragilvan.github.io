@@ -20,16 +20,24 @@ if (pathName == "/") {
 
     var left_section_image_css = "height: 250px;border-radius:4px";
 
-    var left_section_html = ` <div class='custom-row-profile' style='background:none;'>
+    var left_section_html = `<div class='custom-row-profile' style='background:none;'>
                                <img src='${left_section_image}' style='${left_section_image_css}'/>
-                              </div>
-                              <div class='certificacoes'>                              
-                                  <img src='./imagens/scrum.png' width='80px' title='SCRUM FUNDAMENTOS'/>                                 
-                                  <img src='./imagens/sfc.png' width='80px' style="cursor: pointer" 
-                                   onClick="javascript:window.open('https://www.scrumstudy.com/certification/verify?type=SFC&number=606550','_blank')"/>                                 
-                                   <img src='./imagens/yellow.png' width='80px' style="cursor: pointer" 
-                                   onClick="javascript:window.open('http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-GilvanMoraesDeMoura-588621.pdf','_blank')"/>
-                                  </div>
+                             </div>
+                             <div class='certificacoes'>    
+                                <div>
+                                <img src=' https://www.zend-zce.com/static-assets/img/zcedirectory/zce-2017-small.gif' 
+                                width='80px' title='Zend Certified Enginer' style='border-radius:5px;cursor: pointer' 
+                                onClick="javascript:window.open('https://www.zend-zce.com/en/yellow-pages/ZEND033311')"/>  
+                                <img src='./imagens/scrum.png' width='80px' title='SCRUM FUNDAMENTOS'/>                                 
+                                <img src='./imagens/sfc.png' width='80px' style="cursor: pointer" 
+                                onClick="javascript:window.open('https://www.scrumstudy.com/certification/verify?type=SFC&number=606550','_blank')"/>                                 
+                                </div>
+                                <div style="margin-top:5px">
+                                <img src='./imagens/yellow.png' width='80px' style="cursor: pointer;" 
+                                onClick="javascript:window.open('http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-GilvanMoraesDeMoura-588621.pdf','_blank')"/>
+                               </div>
+
+                             </div>                            
                             `;
 
     left_section[1].innerHTML = left_section_html;
