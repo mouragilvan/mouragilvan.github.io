@@ -111,7 +111,11 @@ if (pathName == "/") {
 /* Envia para a impressão PDF*/
 
 if (pathName == "/pdf/") {
-   window.print();
+   setTimeout(function(){
+      document.getElementById("vlibras").style.display="none";
+      window.print();
+   },300);     
+   
 }
 
 function fechar() {
@@ -217,6 +221,15 @@ for (var i = 0; i <= itemMenuLateral.length; i++) {
          this.style.cssText = "border: none";
       });
    }
+}
+
+//altera a cor do menu na página home
+if(pathName == "/"){
+   var c = document.getElementsByClassName("md-nav__link");
+   for(var i=0;i<=c.length;i++){
+      c.style.cssText="color: white !important";    
+   }
+  
 }
 
 
