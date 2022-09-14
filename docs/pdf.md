@@ -6,8 +6,8 @@
 -->
 <h2>Gilvan Moraes de Moura</h2>
 <p>37 anos, casado.</p>
-<p>Ceilândia/DF</p>
-<p>Whatsapp (61)98244-9780 Celular: (61)98583-6337 E-mail: gilvan.moura@outlook.com.br</p>
+<p style="font-size:12px;">Ceilândia/DF | Whatsapp (61)98244-9780 | Celular: (61)98583-6337 | E-mail: gilvan.moura@outlook.com.br
+</p>
 
 <h2>RESUMO PROFISSIONAL</h2>
 <p>Desenvolvedor Full Stack com foco em desenvolvimento de integrações API e
@@ -84,6 +84,7 @@ demandante</li>
  <div class="col">
     <ul class="custom-ul">
             <li>BACHARELADO EM SISTEMAS DE INFORMAÇÃO PELA UNIPROJEÇÃO EM 2019</li>
+            <li>Zend Certified Engineer - código ZEND033311</li>
             <li>Scrum Foundation Professional Certificate SFPC Nº 31058817</li>
             <li>Scrum Fundamentals Certified Nº 606550</li>
             <li>Yellow Belt Nº 588621</li>                       
