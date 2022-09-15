@@ -90,7 +90,7 @@ a {
   border: 1px solid gray;
   right: 1px;
   top: 1px;
-  padding: 0px 100px;
+  padding: 0px 10px;
   background-color: white !important;
   z-index: 99;
 }
