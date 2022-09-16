@@ -90,7 +90,11 @@ a {
  
   right: 1px;
   top: 1px;
+<<<<<<< HEAD
   padding: 0px 0px;
+=======
+  padding: 0px 10px;
+>>>>>>> 7b96adb16781fd3bcbb2378706c2ee8bf971f1f6
   background-color: white !important;
   z-index: 99;
 }

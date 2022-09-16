@@ -109,13 +109,18 @@ if (pathName == "/") {
 // document.getElementsByClassName('.md-nav__item').classList.add("animate__flipInX"); 
 
 /* Envia para a impressão PDF*/
-
 if (pathName == "/pdf/") {
    setTimeout(function(){
+<<<<<<< HEAD
       document.getElementById("vlibras").style.display="none";
       window.print();
    },300);     
    
+=======
+      document.getElementById("vlibras").style.display="none";//remove o Vlibras da impressão
+      window.print();
+   },300); 
+>>>>>>> 7b96adb16781fd3bcbb2378706c2ee8bf971f1f6
 }
 
 function fechar() {
@@ -218,7 +223,12 @@ for (var i = 0; i <= itemMenuLateral.length; i++) {
       });
 
       itemMenuLateral[i].addEventListener('mouseout', function () {
-         this.style.cssText = "border: none";
+         
+         if(pathName == "/"){
+            this.style.cssText = "border: none;color:  #3baee7  !important";
+         }else{
+            this.style.cssText = "border: none;";
+         }
       });
    }
 }
@@ -226,10 +236,18 @@ for (var i = 0; i <= itemMenuLateral.length; i++) {
 //altera a cor do menu na página home
 if(pathName == "/"){
    var c = document.getElementsByClassName("md-nav__link");
+<<<<<<< HEAD
    for(var i=0;i<=c.length;i++){
       c.style.cssText="color: white !important";    
    }
   
 }
 
+=======
+   for(var i=0;i<c.length;i++){
+      c[i].style.cssText="color:  #3baee7  !important";    
+   }
+  
+}
+>>>>>>> 7b96adb16781fd3bcbb2378706c2ee8bf971f1f6
 
