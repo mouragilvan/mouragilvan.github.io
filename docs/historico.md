@@ -1,8 +1,12 @@
 # Histórico profissional
 
+## Stefanini - BB Seguradora
+
+* Desenvolvedor full stack SR | Outubro/2022 - <span class="custom-badge">ATUAL</span>
+
 ## G4F Soluções Corporativas - MINISTÉRIO DE RELAÇÕES EXTERIORES
 
-* Desenvolvedor | Brasília, DF | Janeiro/2022 - <span class="custom-badge">ATUAL</span>
+* Desenvolvedor | Brasília, DF | Janeiro/2022 - Outubro/2022
 
 Manutenção e desenvolvimento de APIS utilizando o Zend Framework / APIGILITY  (Laminas)
 
