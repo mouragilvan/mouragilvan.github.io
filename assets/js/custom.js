@@ -207,31 +207,33 @@ if (pathName == "/sobre-mim/") {
    menuDireita.style.cssText = "display: none";
 }
 
-var itemMenuLateral = document.getElementsByClassName("md-nav__link");
+//MENU LATERAL
 
-for (var i = 0; i <= itemMenuLateral.length; i++) {
-   if (itemMenuLateral[i] != undefined) {
-      itemMenuLateral[i].addEventListener('mouseover', function () {
-         this.style.cssText = "border-bottom-style: outset";
-      });
+// var itemMenuLateral = document.getElementsByClassName("md-nav__link");
 
-      itemMenuLateral[i].addEventListener('mouseout', function () {
+// for (var i = 0; i <= itemMenuLateral.length; i++) {
+//    if (itemMenuLateral[i] != undefined) {
+//       itemMenuLateral[i].addEventListener('mouseover', function () {
+//          this.style.cssText = "border-bottom-style: outset";
+//       });
+
+//       itemMenuLateral[i].addEventListener('mouseout', function () {
          
-         if(pathName == "/"){
-            this.style.cssText = "border: none;color:  #3baee7  !important";
-         }else{
-            this.style.cssText = "border: none;";
-         }
-      });
-   }
-}
+//          if(pathName == "/"){
+//             this.style.cssText = "border: none;color:  #3baee7  !important";
+//          }else{
+//             this.style.cssText = "border: none;";
+//          }
+//       });
+//    }
+// }
 
-//altera a cor do menu na página home
+//ALTERA O PADDING DO MENU LATERAL
 if(pathName == "/"){
-   var c = document.getElementsByClassName("md-nav__link");
-   for(var i=0;i<c.length;i++){
-      c[i].style.cssText="color:  #3baee7  !important";    
-   }
+   var c = document.getElementsByClassName("md-sidebar md-sidebar--primary");
+   
+   c[0].style.cssText = "padding-top:111px;";  
+
   
 }
 
