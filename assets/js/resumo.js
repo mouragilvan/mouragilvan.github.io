@@ -27,9 +27,8 @@ if (pathName == "/") {
                              </div>
                              <div class='certificacoes'>    
                                 <div style="text-align:center">
-                                <img src=' https://www.zend-zce.com/static-assets/img/zcedirectory/zce-2017-small.gif' 
-                                width='${width}' title='Zend Certified Enginer' style='border-radius:5px;cursor: pointer' 
-                                onClick="javascript:window.open('https://www.zend-zce.com/en/yellow-pages/ZEND033311')"/>  
+                                <img src='https://www.zend.com//sites/default/files/image/2019-09/zce-2017-php-155x155_0.png' 
+                                width='${width}' title='Zend Certified Enginer' style='border-radius:5px;cursor: pointer'/>  
                                 <img src='./imagens/scrum.png' width='${width}' title='SCRUM FUNDAMENTOS'/>                                 
                                 <img src='./imagens/sfc.png' width='${width}' style="cursor: pointer" 
                                 onClick="javascript:window.open('https://www.scrumstudy.com/certification/verify?type=SFC&number=606550','_blank')"/>                                 
