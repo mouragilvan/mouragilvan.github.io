@@ -20,7 +20,7 @@ if (pathName == "/") {
 
     var left_section_image_css = "height: 250px;border-radius:4px";
 
-    const width = '60px';
+    const width = '70px';
 
     var left_section_html = `<div class='custom-row-profile' style='background:none;'>
                                <img src='${left_section_image}' style='${left_section_image_css}'/>
@@ -28,8 +28,7 @@ if (pathName == "/") {
                              <div class='certificacoes'>    
                                 <div style="text-align:center">
                                 <img src='https://www.zend.com//sites/default/files/image/2019-09/zce-2017-php-155x155_0.png' 
-                                width='${width}' title='Zend Certified Enginer' style='border-radius:5px;cursor: pointer'/>  
-                                <img src='./imagens/scrum.png' width='${width}' title='SCRUM FUNDAMENTOS'/>                                 
+                                width='${width}' title='Zend Certified Enginer' style='border-radius:5px;cursor: pointer'/>                                                                
                                 <img src='./imagens/sfc.png' width='${width}' style="cursor: pointer" 
                                 onClick="javascript:window.open('https://www.scrumstudy.com/certification/verify?type=SFC&number=606550','_blank')"/>                                 
                                 <img src='./imagens/yellow.png' width='${width}' style="cursor: pointer;" 

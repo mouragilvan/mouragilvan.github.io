@@ -1,13 +1,16 @@
 const PHP_SK = 90;
-const LARAVEL_SK = 80;
+const LARAVEL_SK = 90;
 const JS_SK= 90;
-const CSS_SK = 89;
+const CSS_SK = 92;
 const ANGULAR_SK = 89;
 const JAVA_SK = 65;
-const REACTNATIVE_SK = 50;
-const NODEJS_SK = 70;
-const SQKSERVER_SK = 70;
-const POSTGRESQL_SK = 60;
+const REACTNATIVE_SK = 80;
+const NODEJS_SK = 97;
+const SQKSERVER_SK = 80;
+const POSTGRESQL_SK = 70;
+const ORACLE_SK = 65;
+const VUE_SK = 80;
+const MYSQL_SK = 90;
 //Animar skills
 if (pathName == "/skills/") {
 
@@ -21,6 +24,9 @@ if (pathName == "/skills/") {
     var iterator8 = 0;
     var iterator9 = 0;
     var iterator10 = 0;
+    var iterator11 = 0;
+    var iterator12 = 0;
+    var iterator13 = 0;
 
     setInterval(function () {
 
@@ -68,7 +74,18 @@ if (pathName == "/skills/") {
             document.getElementById("postgresql-skill").style.cssText = `width: ${iterator10}%`
             iterator10 += 10;
         }
-
+        if (iterator11 <= ORACLE_SK) {
+            document.getElementById("oracle-skill").style.cssText = `width: ${iterator11}%`
+            iterator11 += 10;
+        }
+        if (iterator12 <= VUE_SK) {
+            document.getElementById("vue-skill").style.cssText = `width: ${iterator12}%`
+            iterator12 += 10;
+        }
+        if (iterator13 <= MYSQL_SK) {
+            document.getElementById("mysql-skill").style.cssText = `width: ${iterator13}%`
+            iterator13 += 10;
+        }
 
     }, 130);
 
