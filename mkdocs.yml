@@ -5,7 +5,7 @@ nav:
     - "Histórico profissional" : historico.md
     - "Formação acadêmica": formacao.md
     - Skills: skills.md
-    - CV em PDF: pdf.md
+    - CV em PDF: pdf.md    
 #theme: material
 theme:
     name: material
